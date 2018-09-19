@@ -1,0 +1,124 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}",
+                "C:/SPB_Data/esp32/esp-idf/components/freertos/include",
+                "C:/SPB_Data/esp32/esp-idf/components/driver/include",
+                "C:/SPB_Data/esp32/esp-idf/components/esp32/include/xtensa",
+                "C:/SPB_Data/esp32/esp-idf/components/esp32/include",
+                "C:/SPB_Data/esp32/esp-idf/components/nvs_flash/include",
+                "C:/SPB_Data/esp32/esp-idf/components/log/include",
+                "C:/SPB_Data/esp32/esp-idf/components/newlib/include",
+                "C:/SPB_Data/esp32/esp-idf/components/spi_flash/include",
+                "C:/SPB_Data/esp32/esp-idf/components/lwip/include/lwip/port",
+                "C:/SPB_Data/esp32/esp-idf/components/lwip/include/lwip/posix",
+                "C:/SPB_Data/esp32/esp-idf/components/lwip/include/lwip",
+                "C:/SPB_Data/esp32/esp-idf/components/soc/esp32/include",
+                "C:/SPB_Data/esp32/esp-idf/components/soc/include",
+                "C:/SPB_Data/esp32/esp-idf/components/vfs/include",
+                "C:/SPB_Data/esp32/esp-idf/components/tcpip_adapter/include",
+                "C:/SPB_Data/esp32/esp-idf/components/heap/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "/home/davide/Documents/esp/esp-idf/components/freertos/include",
+                "/home/davide/Documents/esp/esp-idf/components/driver/include",
+                "/home/davide/Documents/esp/esp-idf/components/esp32/include/rom",
+                "/home/davide/Documents/esp/esp-idf/components/esp32/include/xtensa",
+                "/home/davide/Documents/esp/esp-idf/components/esp32/include",
+                "/home/davide/Documents/esp/esp-idf/components/log/include",
+                "/home/davide/Documents/esp/esp-idf/components/nvs_flash/include",
+                "/home/davide/Documents/esp/esp-idf/components/newlib/include",
+                "/home/davide/Documents/esp/esp-idf/components/spi_flash/include",
+                "/home/davide/Documents/esp/esp-idf/components/lwip/apps/ping",
+                "/home/davide/Documents/esp/esp-idf/components/lwip/include/lwip/port",
+                "/home/davide/Documents/esp/esp-idf/components/lwip/include/lwip/posix",
+                "/home/davide/Documents/esp/esp-idf/components/lwip/include/lwip",
+                "/home/davide/Documents/esp/esp-idf/components/soc/esp32/include",
+                "/home/davide/Documents/esp/esp-idf/components/soc/include",
+                "/home/davide/Documents/esp/esp-idf/components/vfs/include",
+                "/home/davide/Documents/esp/esp-idf/components/tcpip_adapter/include",
+                "/home/davide/Documents/esp/esp-idf/components/heap/include",
+                "/home/davide/Documents/esp/esp-idf/components/esp_adc_cal/include",
+                "/home/davide/Documents/esp/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+                "${workspaceRoot}/build/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/home/davide/Documents/esp/esp-idf/components",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/msys32/home/Davide/esp/esp-idf/components/freertos/include/freertos",
+                "C:/msys32/home/Davide/esp/esp-idf/components/freertos/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/driver/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/esp32/include/xtensa",
+                "C:/msys32/home/Davide/esp/esp-idf/components/esp32/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/nvs_flash/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/log/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/newlib/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/spi_flash/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/lwip/include/lwip/port",
+                "C:/msys32/home/Davide/esp/esp-idf/components/lwip/include/lwip/posix",
+                "C:/msys32/home/Davide/esp/esp-idf/components/lwip/include/lwip",
+                "C:/msys32/home/Davide/esp/esp-idf/components/soc/esp32/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/soc/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/vfs/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/tcpip_adapter/include",
+                "C:/msys32/home/Davide/esp/esp-idf/components/heap/include",
+                "C:/msys32/opt/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+                "${workspaceRoot}/build/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
