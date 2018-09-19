@@ -29,9 +29,9 @@ int pingstate;
 
 // Home Wifi Access Point
 const char* ssid1 = "ITIS";
-const char* password1 = "pocoposto!";//TODO
+const char* password1 = "***";//TODO
 const char* ssid2 = "HOME";
-const char* password2 = "ERMADADA4";//TODO
+const char* password2 = "***";//TODO
 //switcher per gli ssid salvati
 wifi_config_t sta_config1 = { };
 wifi_config_t sta_config2 = { };
