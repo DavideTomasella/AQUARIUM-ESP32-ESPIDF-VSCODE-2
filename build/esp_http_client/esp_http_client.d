@@ -65,11 +65,12 @@ esp_http_client.o: \
  C:/msys32/home/davide/esp/esp-idf/components/log/include/esp_log_internal.h \
  C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/http_header.h \
  C:/msys32/home/davide/esp/esp-idf/components/esp32/include/rom/queue.h \
- C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/transport.h \
- C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/transport_tcp.h \
- C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/transport.h \
+ C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport.h \
+ C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport_tcp.h \
+ C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport.h \
  C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h \
  C:/msys32/home/davide/esp/esp-idf/components/newlib/include/sys/time.h \
+ C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport_utils.h \
  C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/http_auth.h \
  C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/include/esp_http_client.h \
  C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -221,15 +222,17 @@ C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/http_he
 
 C:/msys32/home/davide/esp/esp-idf/components/esp32/include/rom/queue.h:
 
-C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/transport.h:
+C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport.h:
 
-C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/transport_tcp.h:
+C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport_tcp.h:
 
-C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/transport.h:
+C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/newlib/include/sys/time.h:
+
+C:/msys32/home/davide/esp/esp-idf/components/tcp_transport/include/transport_utils.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/esp_http_client/lib/include/http_auth.h:
 

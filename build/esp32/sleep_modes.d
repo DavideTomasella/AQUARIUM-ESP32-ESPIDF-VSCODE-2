@@ -115,7 +115,7 @@ sleep_modes.o: \
  C:/msys32/home/davide/esp/esp-idf/components/newlib/include/limits.h \
  C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/list.h \
  C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/queue.h \
- C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ C:/msys32/home/davide/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
  C:/msys32/home/davide/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h
 
 C:/msys32/home/davide/esp/esp-idf/components/newlib/include/sys/lock.h:
@@ -348,7 +348,7 @@ C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/list.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
+C:/msys32/home/davide/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 /home/davide/esp/esp-idf/components/esp32/./sleep_modes.c:

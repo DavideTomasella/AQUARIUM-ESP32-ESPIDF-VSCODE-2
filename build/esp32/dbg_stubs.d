@@ -30,12 +30,7 @@ dbg_stubs.o: \
  C:/msys32/home/davide/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  C:/msys32/home/davide/esp/esp-idf/components/newlib/include/alloca.h \
  C:/msys32/home/davide/esp/esp-idf/components/newlib/include/assert.h \
- C:/msys32/home/davide/esp/esp-idf/components/esp32/include/esp_attr.h \
- C:/msys32/home/davide/esp/esp-idf/components/log/include/esp_log.h \
- C:/msys32/home/davide/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
- C:/msys32/home/davide/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- C:/msys32/home/davide/esp/esp-idf/components/esp32/include/esp_assert.h \
- C:/msys32/home/davide/esp/esp-idf/components/log/include/esp_log_internal.h
+ C:/msys32/home/davide/esp/esp-idf/components/esp32/include/esp_attr.h
 
 C:/msys32/home/davide/esp/esp-idf/components/xtensa-debug-module/include/eri.h:
 
@@ -98,14 +93,4 @@ C:/msys32/home/davide/esp/esp-idf/components/newlib/include/alloca.h:
 C:/msys32/home/davide/esp/esp-idf/components/newlib/include/assert.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/esp32/include/esp_attr.h:
-
-C:/msys32/home/davide/esp/esp-idf/components/log/include/esp_log.h:
-
-C:/msys32/home/davide/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
-
-C:/msys32/home/davide/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-C:/msys32/home/davide/esp/esp-idf/components/esp32/include/esp_assert.h:
-
-C:/msys32/home/davide/esp/esp-idf/components/log/include/esp_log_internal.h:
 /home/davide/esp/esp-idf/components/esp32/./dbg_stubs.c:

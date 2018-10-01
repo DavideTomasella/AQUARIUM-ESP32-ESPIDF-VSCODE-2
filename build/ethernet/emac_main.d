@@ -93,6 +93,7 @@ emac_main.o: \
  C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  C:/msys32/home/davide/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  C:/msys32/home/davide/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
+ C:/msys32/home/davide/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  C:/msys32/home/davide/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  C:/msys32/home/davide/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
  C:/msys32/home/davide/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
@@ -329,6 +330,8 @@ C:/msys32/home/davide/esp/esp-idf/components/freertos/include/freertos/xtensa_co
 C:/msys32/home/davide/esp/esp-idf/components/esp32/include/xtensa/config/system.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
+
+C:/msys32/home/davide/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
 

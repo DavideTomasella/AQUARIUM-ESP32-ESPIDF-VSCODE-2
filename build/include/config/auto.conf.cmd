@@ -16,6 +16,7 @@ deps_config := \
 	/home/davide/esp/esp-idf/components/lwip/Kconfig \
 	/home/davide/esp/esp-idf/components/mbedtls/Kconfig \
 	/home/davide/esp/esp-idf/components/mdns/Kconfig \
+	/home/davide/esp/esp-idf/components/mqtt/Kconfig \
 	/home/davide/esp/esp-idf/components/openssl/Kconfig \
 	/home/davide/esp/esp-idf/components/pthread/Kconfig \
 	/home/davide/esp/esp-idf/components/spi_flash/Kconfig \

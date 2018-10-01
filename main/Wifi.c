@@ -32,6 +32,8 @@ const char* ssid1 = "ITIS";
 const char* password1 = "***";//TODO
 const char* ssid2 = "HOME";
 const char* password2 = "***";//TODO
+const char* ssid2 = "Vodafone-35040431";
+const char* password2 = "***";//TODO
 //switcher per gli ssid salvati
 wifi_config_t sta_config1 = { };
 wifi_config_t sta_config2 = { };
@@ -151,6 +153,11 @@ void wifi_config_choser(){
         wifi_choser++;
     }
     else if(wifi_choser == 2){
+        ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_STA, &sta_config2));
+        ESP_LOGI(tag, "connecting to WIFI  SSID:%s in UDP mode\n",ssid2);
+        wifi_choser++;
+    }    
+    else if(wifi_choser == 3){
         ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_STA, &sta_config2));
         ESP_LOGI(tag, "connecting to WIFI  SSID:%s in UDP mode\n",ssid2);
         wifi_choser=1;

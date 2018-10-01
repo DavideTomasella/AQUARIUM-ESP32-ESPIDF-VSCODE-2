@@ -115,6 +115,7 @@ wifi_os_adapter.o: \
  C:/msys32/home/davide/esp/esp-idf/components/newlib/include/sys/stat.h \
  C:/msys32/home/davide/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  C:/msys32/home/davide/esp/esp-idf/components/newlib/platform_include/sys/select.h \
+ C:/msys32/home/davide/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  C:/msys32/home/davide/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  C:/msys32/home/davide/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
  C:/msys32/home/davide/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
@@ -381,6 +382,8 @@ C:/msys32/home/davide/esp/esp-idf/components/newlib/include/sys/stat.h:
 C:/msys32/home/davide/esp/esp-idf/components/vfs/include/sys/ioctl.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/newlib/platform_include/sys/select.h:
+
+C:/msys32/home/davide/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 C:/msys32/home/davide/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
 

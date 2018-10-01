@@ -64,17 +64,23 @@ int ota_run_update(void* args){
         .url = SERVER_URL,
         //.cert_pem = (char *)server_cert_pem_start,
     };
-    esp_http_client_handle_t client = esp_http_client_init(&config);
-    if (client == NULL) {
-        ESP_LOGE(tag, "Failed to initialise HTTP connection");
-        return 1;//task_fatal_error();
-    }
-    err = esp_http_client_open(client, 0);
-    if (err != ESP_OK) {
-        ESP_LOGE(tag, "Failed to open HTTP connection: %s", esp_err_to_name(err));
-        esp_http_client_cleanup(client);
-        return 1;
-        //task_fatal_error();
+    esp_http_client_handle_t client = NULL;
+    while (1) {
+        esp_get_free_heap_size();
+        client = esp_http_client_init(&config);
+        err = esp_http_client_open(client, 0);
+        if (client == NULL) {
+            ESP_LOGE(TAG, "Failed to initialise HTTP connection");
+            //task_fatal_error();
+        }
+        if (err != ESP_OK) {
+            ESP_LOGE(TAG, "Failed to open HTTP connection: %s", esp_err_to_name(err));
+            esp_http_client_cleanup(client);
+            //task_fatal_error();
+        } else {
+            break;
+        }
+        esp_get_free_heap_size();
     }
     esp_http_client_fetch_headers(client);
 
